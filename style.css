@@ -1,0 +1,56 @@
+.body_background {
+    background-position: center;
+    background-size: contain;
+    background: url(Grass.jpg);
+}
+
+#myCanvas {
+    border-width: 10px;
+    border-style: ridge;
+    background-color: forestgreen;
+}
+
+#hd3 {
+    display: inline-block;
+    color: red;
+    background-color: aliceblue;
+    font-family: fantasy;
+}
+
+img {
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+img {
+    margin: 30px;
+}
+
+#myCarousel {
+    background-color: aqua;
+}
+
+.carousel-inner {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: black;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+}
+
+.section-style {
+    margin-right: 25px;
+    margin-left: 25px;
+    background-color: white;
+}
+
+img {
+    height: 350px;
+    width: 600px;
+}
